@@ -1,4 +1,4 @@
-# firsttryonlearningclass1.aleo
+# learningclass1foraleoauction.aleo
 
 ## Build Guide
 

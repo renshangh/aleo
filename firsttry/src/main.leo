@@ -1,5 +1,5 @@
 // The 'firsttry' program.
-program firsttry.aleo {
+program firsttryonlearningclass1.aleo {
     transition main(public a: u32, b: u32) -> u32 {
         let c: u32 = a + b;
         // write a function to pick the maximum of 5 numbers

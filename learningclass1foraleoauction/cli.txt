@@ -1,0 +1,18 @@
+leo run resolve '{
+  owner: aleo1g24j0aa2fw69y7n05aehk3gp7cf8tr9ea2nnpnavx3qdpmc5r5rse08kl2.private,
+  bidder: aleo1rhgdu77hgyqd3xjj8ucu3jj9r2krwz6mnzyd80gncr5fxcwlh5rsvzp9px.private,
+  amount: 10u64.private,
+  is_winner: false.private,
+  _nonce: 4440043759474360933102289205579244420113034541861116605340411741160549740231group.public
+}' '{
+  owner: aleo1g24j0aa2fw69y7n05aehk3gp7cf8tr9ea2nnpnavx3qdpmc5r5rse08kl2.private,
+  bidder: aleo1ecyryek3a4c7h5ymrksh33h8fvzs9lf4vg9wfmcf44nvhdmakqgse4gns0.private,
+  amount: 11u64.private,
+  is_winner: false.private,
+  _nonce: 2821894023626993085518664439773420621258511002973226390917523204324895640929group.public
+}' 
+
+
+
+aleo1rhgdu77hgyqd3xjj8ucu3jj9r2krwz6mnzyd80gncr5fxcwlh5rsvzp9px
+aleo1ecyryek3a4c7h5ymrksh33h8fvzs9lf4vg9wfmcf44nvhdmakqgse4gns0

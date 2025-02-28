@@ -1,4 +1,4 @@
-program firsttry.aleo;
+program firsttryonlearningclass1.aleo;
 
 function main:
     input r0 as u32.public;
