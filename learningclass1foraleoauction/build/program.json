@@ -1,6 +1,7 @@
 {
-    "program": "learningclass1foraleoauction.aleo",
-    "version": "0.0.0",
-    "description": "",
-    "license": "MIT"
+  "program": "learningclass1foraleoauction.aleo",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "dependencies": null
 }

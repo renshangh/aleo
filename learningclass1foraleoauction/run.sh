@@ -101,18 +101,18 @@ echo "
 ###############################################################################
 "
 leo run resolve "{
-        owner: aleo1ashyu96tjwe63u0gtnnv8z5lhapdu4l5pjsl2kha7fv7hvz2eqxs5dz0rg.private,
-        bidder: aleo1rhgdu77hgyqd3xjj8ucu3jj9r2krwz6mnzyd80gncr5fxcwlh5rsvzp9px.private,
+        owner: aleo1g24j0aa2fw69y7n05aehk3gp7cf8tr9ea2nnpnavx3qdpmc5r5rse08kl2.private,
+        bidder: aleo1kxvktl9vre8ytrmhfr6q9em6wfaf3avp3dwmfk68a4ckppjwd5gqvszy8d.private,
         amount: 10u64.private,
         is_winner: false.private,
-        _nonce: 143615537336487518231260507449657115217148420102194585767286561830487900075group.public
-    }" "{
-        owner: aleo1ashyu96tjwe63u0gtnnv8z5lhapdu4l5pjsl2kha7fv7hvz2eqxs5dz0rg.private,
-        bidder: aleo1s3ws5tra87fjycnjrwsjcrnw2qxr8jfqqdugnf0xzqqw29q9m5pqem2u4t.private,
+        _nonce: 6052523601338618010366348391882590397848697985905986069201832739979216059637group.public
+        }" "{
+        owner: aleo1g24j0aa2fw69y7n05aehk3gp7cf8tr9ea2nnpnavx3qdpmc5r5rse08kl2.private,
+        bidder: aleo1l7zxrhcr8420tnueqa3gw6xrd9v7dt9fs86vacm377tz7lg56gpqaf2xup.private,
         amount: 90u64.private,
         is_winner: false.private,
-        _nonce: 6467846572146524919011604714643822427734288518702182985678678101776343830750group.public
-    }" || exit
+        _nonce: 8061888333948719965458030159183401613387241184660857037229834704079264166818group.public
+        }" || exit
 
 # Have the auctioneer finish the auction.
 echo "
@@ -129,11 +129,11 @@ echo "
 ###############################################################################
 "
 leo run finish "{
-        owner: aleo1ashyu96tjwe63u0gtnnv8z5lhapdu4l5pjsl2kha7fv7hvz2eqxs5dz0rg.private,
-        bidder: aleo1s3ws5tra87fjycnjrwsjcrnw2qxr8jfqqdugnf0xzqqw29q9m5pqem2u4t.private,
-        amount: 90u64.private,
-        is_winner: false.private,
-        _nonce:5295450145728903416898002358374704886257487492344414839814928116124564429158group.public
+    owner: aleo1g24j0aa2fw69y7n05aehk3gp7cf8tr9ea2nnpnavx3qdpmc5r5rse08kl2.private,
+    bidder: aleo1l7zxrhcr8420tnueqa3gw6xrd9v7dt9fs86vacm377tz7lg56gpqaf2xup.private,
+    amount: 90u64.private,
+    is_winner: false.private,
+    _nonce: 5007061680182881660404536607103738493700785693479229034391686216993694904652group.public
     }" || exit
 
 
