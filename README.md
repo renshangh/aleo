@@ -1,6 +1,6 @@
 Implemented a new feature of block_height. The function trasfer_private checks the current block heigh and only allow the execution when it passed a predefined number.   
 
-Here is the deploy info.
+Here is the deployment info:
 
 ➜  linkgear_mining_dao_token git:(main) ✗ leo deploy
        Leo ✅ Compiled 'linkgear_mining_dao_token.aleo' into Aleo instructions
