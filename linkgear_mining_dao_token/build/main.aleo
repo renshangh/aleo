@@ -57,8 +57,10 @@ finalize transfer_private:
     input r2 as u32.public;
     await r0;
     await r1;
-    rem block.height 28_800u32 into r3;
-    assert.eq r2 r3;
+    gt block.height 10000u32 into r3;
+    assert.eq r3 true;
+    rem block.height 28_800u32 into r4;
+    assert.eq r2 r4;
 
 function initialize:
     assert.eq self.caller aleo1g24j0aa2fw69y7n05aehk3gp7cf8tr9ea2nnpnavx3qdpmc5r5rse08kl2;

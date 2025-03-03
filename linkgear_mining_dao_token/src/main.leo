@@ -10,6 +10,7 @@ program linkgear_mining_dao_token.aleo {
   const BLOCKS_IN_A_DAY: u32 = 28_800u32; // Number of blocks per day for epoch-based calculations
   const MAX_SPEND_PER_DAY: u128 = 10_000_000_000u128; // Daily spending limit per user
   const MAX_U32: u32 = 4294967295u32; // Maximum value of a u32, used for transaction expiration
+  const BLOCK_HEIGHT: u32 = 10000u32; // Placeholder for block height, it can be a dynamic value
 
   // Record defining the spend limit for a user.
   record SpendLimit {
@@ -174,6 +175,9 @@ program linkgear_mining_dao_token.aleo {
   ) {
     f0.await();
     f1.await();
+
+    // ensure the current block height is more than the defined block height
+    assert(block.height > BLOCK_HEIGHT);
 
     let current_epoch: u32 = block.height % BLOCKS_IN_A_DAY;
     assert_eq(epoch, current_epoch);
