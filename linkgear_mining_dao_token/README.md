@@ -36,7 +36,10 @@ Broadcasting transaction to https://api.explorer.provable.com/v1/testnet/transac
 
 ⌛ Deployment at1r9v8hprsnyaak8r9hqfg8ucnwmlkltas8tlfuz95jv6kc9pjw5rq8zd253 ('linkgear_mining_dao_token.aleo') has been broadcast to https://api.explorer.provable.com/v1/testnet/transaction/broadcast.
 
-
+leo build
+leo run initialize
+leo run mint_private
+leo run issue_limit aleo1g24j0aa2fw69y7n05aehk3gp7cf8tr9ea2nnpnavx3qdpmc5r5rse08kl2
 
 leo run transfer_private "{owner: aleo1g24j0aa2fw69y7n05aehk3gp7cf8tr9ea2nnpnavx3qdpmc5r5rse08kl2.private, 
 amount: 1000000000000000u128.private, 
@@ -47,3 +50,5 @@ _nonce: 417134242848794917608747122946605914942798759026419033698968946186471457
 amount_spent: 0u128.private, 
 epoch_spent: 0u32.private, 
 _nonce: 752514431784115870595676085969032676294182558689481203097690104756728941221group.public }" "100_000_000u128" "aleo1q5taq9mdcq7cvv4mq67fmvum2my3z2qzszgwm9ju70eplprx0sfqnszn4m" "1u32"
+
+
